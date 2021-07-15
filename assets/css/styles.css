@@ -9,8 +9,32 @@
 }
 
 body {
-    background-color:black;
+    background-color: red;
     
+
+}
+
+h1.title{
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-family: 'Festive', cursive;
+    text-transform: uppercase;
+    font-size: 50px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+
+
+.abt a{
+    display: box;
+    width: 180px;
+    height: 40px;
+    border: 2px solid whitesmoke;
+    line-height: 35px;
+    margin: 25px auto 0;
+    color: black;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -18,7 +42,8 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: whitesmoke;
-    margin-bottom: 50%;
+    margin-bottom: 200%;
+    text-align: right;
     
 
 
@@ -75,7 +100,10 @@ body {
 }
 
 #pages, #logo {
-    line-height: 75px;
+    line-height: 50px; 
+
+    
+    
 }
 
 #pages li {
@@ -85,7 +113,9 @@ body {
     font-weight: bold;
     font-size: 25px;
     font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
 }
+
 
 #pages a {
     color: inherit;
@@ -123,3 +153,20 @@ body {
 }
 
 
+/* About */
+
+.about 
+.contact {
+    padding: 30% 40%;
+    text-align: center;
+}
+
+/* Contact */
+
+.form_input input[type="text"]{
+    width: 250px;
+    padding: 15px 40px
+    border: 1px solid;
+    font-family: 'Lato', sans-serif;
+    font-size
+}
