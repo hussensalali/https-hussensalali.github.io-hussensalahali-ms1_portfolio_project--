@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: turquoise;
+    background-color:black;
     
 
 }
@@ -23,12 +23,6 @@ body {
 
 }
 
-.header {
-    width: 100%;
-    height: 70px;
-    display: block;
-    background-color: slategrey;
-}
 
 .inner_header {
     width: 100%;
@@ -47,13 +41,17 @@ body {
 }
 
 .logo_container h1{
-    color:white;
+    color: white;
     height: 100%;
     font-family: 'Festive', cursive;
-    font-size: 45px;
     font-weight: 400;
     position: relative;
     
+}
+
+.logo_container h1 span {
+    color: red;
+    font-weight: 400;
 }
 
 #logo {
@@ -66,12 +64,17 @@ body {
 /* Navigation pages */
 
 #pages {
+    float: right;
     font-size: 100%;
     letter-spacing: 3px;
     margin-left: 60%;
+    height: 100%;
    
 }
 
+#pages, #logo {
+    line-height: 75px;
+}
 
 #pages li {
     float: left;
@@ -80,18 +83,38 @@ body {
     font-weight: bold;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
-
 }
 
 #pages a {
     color: inherit;
+    height: 100%;
+    float: left;
+    text-align: right;
+    padding: right;
 }
 
+
+
+
+
+
+
+
+
 #pages a:hover {
-    border-bottom: 1px solid slategrey;
+    background-color:black;
+    color:red;
 }
 
 .funk {
     border-bottom: 1px solid slategrey;
 
+}
+
+/* Banner image */
+
+#banner-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/banner-image.jpg') no-repeat center center;
 }
