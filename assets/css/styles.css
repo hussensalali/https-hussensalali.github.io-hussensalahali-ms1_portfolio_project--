@@ -10,12 +10,13 @@
 
 body {
     background-color: red;
+    min-height: 200px;
     
 
 }
 
 h1.title{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: whitesmoke;
     font-family: 'Festive', cursive;
     text-transform: uppercase;
@@ -43,7 +44,7 @@ h1.title{
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: whitesmoke;
-    margin-bottom: 200%;
+    margin-bottom: 100%;
     text-align: center;
     
 
@@ -52,6 +53,16 @@ h1.title{
  p {
     color: whitesmoke;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    
+    
+ }
+
+ .paragraph {
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     
  }
 
 
@@ -152,7 +163,7 @@ h1.title{
 
 
 #banner-image {
-    height: 600px;
+    height: 900px;
     width: 100%;
     background: url('../images/banner-image.jpg') no-repeat center center;
 }
@@ -160,24 +171,33 @@ h1.title{
 
 /* About */
 
-.about 
+.about p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+
 .contact {
-    padding: 40% 40%;
+    padding: 29% 40%;
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
 
 /* Contact */
 
-.form_input input[type="text"] {
+.form_input {
     width: 250px;
-    padding: 15px 40px;
+    padding: 15px 30px;
     border: 1px solid;
     font-family: 'Lato', sans-serif;
-    text-align: center;
+    text-align: left;
     margin-left: 0%;
 }
 
 .center {
     margin-left: 45%;
+    text-align: center;
  } 
+
+ 
