@@ -22,6 +22,7 @@ h1.title{
     font-size: 50px;
     word-spacing: 10px;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 
@@ -43,11 +44,15 @@ h1.title{
     font-weight: 600;
     color: whitesmoke;
     margin-bottom: 200%;
-    text-align: right;
+    text-align: center;
     
 
-
 }
+
+ p {
+    color: whitesmoke;
+    font-size: 20px;
+ }
 
 
 .inner_header {
@@ -157,16 +162,22 @@ h1.title{
 
 .about 
 .contact {
-    padding: 30% 40%;
+    padding: 40% 40%;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Contact */
 
-.form_input input[type="text"]{
+.form_input input[type="text"] {
     width: 250px;
-    padding: 15px 40px
+    padding: 15px 40px;
     border: 1px solid;
     font-family: 'Lato', sans-serif;
-    font-size
+    text-align: center;
+    margin-left: 0%;
 }
+
+.center {
+    margin-left: 45%;
+ } 
