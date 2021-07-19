@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: red;
+    background-color: #232323;
     min-height: 200px;
     
 
@@ -159,8 +159,13 @@ nav {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: whitesmoke;
-    margin-bottom: 100%;
-    text-align: center;
+    margin-bottom: 0%
+    
+    
+
+}
+
+.social {
     
 
 }
@@ -190,14 +195,23 @@ nav {
 }
 
 
+/* Contact */
+
 
 .contact {
-    padding: 29% 40%;
+    padding-top: 20px;
     text-align: center;
     font-family: 'Lato', sans-serif;
+    color: white;
 }
+form {
 
-/* Contact */
+display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    margin: 10px auto;
+}
 
 .form_input {
     width: 250px;
