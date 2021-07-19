@@ -15,6 +15,98 @@ body {
 
 }
 
+header {
+    background-color: #232323;
+}
+
+.logo_container {
+display: inline-block;
+width: fit-content;
+height: 100px;
+padding-top: 25px;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    font-family: 'Festive', cursive;
+    font-weight: 400;
+    position: relative;
+    font-size: 10%;
+    
+}
+
+.logo_container h1 span {
+    color: red;
+    font-weight: 400;
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
+    
+    
+}
+
+/* Navbar */
+
+nav {
+    display: inline;
+    height: 100%;
+
+}
+
+#pages {
+    float: right;
+    font-size: 100%;
+    letter-spacing: 3px;
+    height: 100%;
+    display: inline;
+    padding-top: 35px;
+   
+}
+
+#pages, #logo {
+    line-height: 50px; 
+
+    
+    
+}
+
+#pages li {
+    /* margin-left: 25px; */
+
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    display: inline;
+
+    /* float: right; */
+}
+
+
+#pages a {
+    color: inherit;
+    height: 100%;
+    /* text-align: right; */
+}
+
+
+
+#pages a:hover {
+    background-color:black;
+    color:red;
+}
+
+.active{
+    /* float: left;
+    text-align: right; */
+
+}
+
+
 h1.title{
     margin-bottom: 30px;
     color: whitesmoke;
@@ -28,7 +120,6 @@ h1.title{
 
 
 .abt a{
-    display: box;
     width: 180px;
     height: 40px;
     border: 2px solid whitesmoke;
@@ -58,13 +149,6 @@ h1.title{
     
  }
 
- .paragraph {
-     position: fixed;
-     bottom: 0;
-     right: 0;
-     
- }
-
 
 .inner_header {
     width: 100%;
@@ -75,85 +159,6 @@ h1.title{
     
 }
 
-.logo_container{
-    height: 100%;
-    display: table;
-    
-    
-}
-
-.logo_container h1{
-    color: white;
-    height: 100%;
-    font-family: 'Festive', cursive;
-    font-weight: 400;
-    position: relative;
-    font-size: 10%;
-    
-}
-
-.logo_container h1 span {
-    color: red;
-    font-weight: 400;
-}
-
-#logo {
-    float: left;
-    font-size: 400%;
-    
-}
-
-
-/* Navigation pages */
-
-#pages {
-    float: right;
-    font-size: 100%;
-    letter-spacing: 3px;
-    margin-left: 60%;
-    height: 100%;
-   
-}
-
-#pages, #logo {
-    line-height: 50px; 
-
-    
-    
-}
-
-#pages li {
-    float: left;
-    margin-left: 25px;
-    color: white;
-    font-weight: bold;
-    font-size: 25px;
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-}
-
-
-#pages a {
-    color: inherit;
-    height: 100%;
-    float: left;
-    text-align: right;
-    padding: right;
-}
-
-
-
-#pages a:hover {
-    background-color:black;
-    color:red;
-}
-
-.funk {
-    float: left;
-    text-align: right;
-    padding: right;
-
-}
 
 /* Banner image with banner text */
 
