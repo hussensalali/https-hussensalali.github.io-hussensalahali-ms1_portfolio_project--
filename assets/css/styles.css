@@ -112,14 +112,20 @@ nav {
 #banner-image {
     height: 600px;
     width: 100%;
-    background: url('../images/banner-image.jpg') no-repeat center center/ cover;
-    
+    background: url('../images/banner-image.jpg') no-repeat center center/ cover; 
+}
+
+#banner-text {
+    color: whitesmoke;
+    background-color: rgba(255, 0, 0, 0.434);
+    font-size: 30px;
+    text-align: center;
 }
 
 /* About */
 
 .about p {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -183,6 +189,10 @@ nav {
     font-family: 'Lato', sans-serif;
     
     
+ }
+
+ .bannertext {
+     background-color: red;
  }
 
 
