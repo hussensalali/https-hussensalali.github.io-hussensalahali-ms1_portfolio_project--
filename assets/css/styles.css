@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Festive&family=Lato:wght@300&display=swap');
 
+
 * {
     margin: 0;
     padding: 0px;
@@ -115,11 +116,21 @@ nav {
     background: url('../images/banner-image.jpg') no-repeat center center/ cover; 
 }
 
+#banner-heading {
+    text-align: center;
+    font-size: 60px;
+    color: whitesmoke;
+    padding-top: 50px;
+    background: rgba(255,0,0,0.434);
+}
+
 #banner-text {
     color: whitesmoke;
     background-color: rgba(255, 0, 0, 0.434);
     font-size: 30px;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px
 }
 
 /* About */
