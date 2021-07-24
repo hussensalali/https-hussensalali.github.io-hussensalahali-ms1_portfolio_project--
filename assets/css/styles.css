@@ -245,6 +245,7 @@ nav {
     text-align: center;
     font-family: 'Lato', sans-serif;
     color: white;
+    background: #353535;
     
 }
 
@@ -280,4 +281,19 @@ display: flex;
     text-align: center;
  } 
 
+ /* Thank you page */ 
  
+ #thank-you-body {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+ }
+
+#thank-you-body > section {
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+ #thank-you-heading {
+
+ }
