@@ -245,7 +245,18 @@ nav {
     text-align: center;
     font-family: 'Lato', sans-serif;
     color: white;
+    
 }
+
+#contact-section-image {
+    background: url('../images/contact-section-image.jpg') no-repeat center center / cover;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 50%;
+    filter: grayscale(1);
+}
+
 form {
 
 display: flex;
