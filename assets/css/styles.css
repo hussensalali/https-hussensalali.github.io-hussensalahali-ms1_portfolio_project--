@@ -276,6 +276,12 @@ display: flex;
     margin-left: 0%;
 }
 
+textarea {
+    height: 200px;
+    width: 100%;
+
+}
+
 .center {
     margin-left: 45%;
     text-align: center;
@@ -315,6 +321,7 @@ display: flex;
 
 
 /* started media queries */
+/* tablet devices */ 
 
 @media screen and (max-width: 720px) {
 
@@ -334,9 +341,53 @@ display: flex;
     #banner-heading {
         font-size: 50px;
     }
+    #about p {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
 
 
 
 }
 
+
+
+/* mobile devices */ 
+
+@media screen and (max-width: 560px) {
     
+    #logo {
+        font-size: 200%;
+
+    }
+
+    #pages li {
+        font-size: 16px;
+    }
+
+    #banner-text {
+        font-size: 16px;
+    }
+
+    #banner-heading {
+        font-size: 40px;
+    }
+    #about p {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+   form {
+       width: 80%;
+   }
+
+
+   
+}
+
