@@ -88,8 +88,7 @@ If this section grows too long, you may want to split it off into a separate fil
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://hussensalali.github.io/hussensalahali-ms1_portfolio_project-/
-
+The live link can be found here - https://hussensalali.github.io/hussensalali-hussensalahali-ms1_portfolio_project-/
 ## Credits 
 
 first I would like to thank these wonderful people!
